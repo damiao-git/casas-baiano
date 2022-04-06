@@ -20,36 +20,38 @@
         </nav>
         <!--menu fim-->
     </header>
-    <main>
+    <main class="principal">
         <h2 class="contato">Contato</h2>
         <div class="formulario">
             
             <!-- form -->
             <form action="">
-                <p>Nome</p>
+                <p class="align-left">Nome</p>
                 <input type="text" class="input-style">
-                <p>Email</p>
+                <p class="align-left">Email</p>
                 <input type="email" class="input-style">
-                <p>Assunto</p>
+                <p class="align-left">Assunto</p>
                 <select id="select">
                     <option value="reclamacao">Reclamação</option>
                     <option value="sugestao">Sugestão</option>
                     <option value="duvida">Dúvida</option>
                     <option value="trabalheconosco">Trabalhe conosco</option>
-                </select><br>
-                <p>Mensagem</p>
+                </select>
+                <p class="align-left">Mensagem</p>
                 <textarea id="textarea" cols="30" rows="10"></textarea>
                 <br>
-                <input type="submit" id="enviar" value="Enviar">
+                <input type="submit" id="enviar" value="Enviar" class="align-left">
             </form>
             <!-- end form -->
         </div>
         <div class="redes">
             <h3 class="redes-itens">Entre em contato através das dados abaixo:</h3>
-            <p class="redes-itens">Instagram: @lojascasasbaiano</p>
-            <p class="redes-itens">Facebook: /lojascasasbaiano</p>
-            <p class="redes-itens">Whatsapp: (61)99529-9816</p>
-            <p class="redes-itens">Email: email@email.com</p>
+            <div class="kit-imagem-redes">
+                <a class="redes-itens" href=""><img src="./images/instagram.webp" class="imagem-redes"> @lojascasasbaiano</a>
+                <a class="redes-itens" href=""><img src="./images/facebook.webp" class="imagem-redes"> /lojascasasbaiano</a>
+                <a class="redes-itens" href=""><img src="./images/whatsapp.png" class="imagem-redes"> (61)99529-9816</a>
+                <a class="redes-itens" href=""><img src="./images/email.png" class="imagem-redes"> email@email.com</a>
+            </div>
         </div>
     </main>
     <footer class="footer">

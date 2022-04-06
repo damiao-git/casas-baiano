@@ -23,7 +23,7 @@
 .logo-menu{
     width: 50px;
 }
-main{
+.principal{
     text-align: center;
 }
 .formulario{
@@ -42,9 +42,13 @@ main{
     height: 400px;
     font-size: 1rem;
     vertical-align: middle;
+    margin-left: 50px;
 }
 .redes-itens{
-    padding-bottom: 5px;;
+    padding-bottom: 5px;
+    display: block;
+    text-decoration: none;
+    color: black;
 }
 .input-style{
     width: 100%;
@@ -63,6 +67,7 @@ form > textarea{
     display:block;
     text-align: center;
     padding: 10px;
+    font-size: 2rem;
 }
 #enviar{
     cursor: pointer;
@@ -87,11 +92,13 @@ form > textarea{
     padding:5px;
     width: 300px;
     height: 1000px;
+    
 }
 .categorias-click{
     cursor: pointer;
     padding: 10px;
     background-color: #c20000;
+    
 }
 .categorias-click:hover{
     background-color: #ffc299;
@@ -139,4 +146,18 @@ form > textarea{
     padding-top: 25px;
     display:block;
     text-align: center;
+}
+.imagem-redes{
+    width: 30px;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+.kit-imagem-redes{
+    text-align: left;
+}
+.align-left{
+    text-align: left;
+}
+#select{
+    display:block;
 }
