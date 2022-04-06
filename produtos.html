@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <!-- menu inicio -->
+        <nav class="menu">
+            <ul class="lista-menu">
+                <li class="item-menu"><a href="index.html"><img class="logo-menu" src="./images/logo.png" alt="logo"></a></li>
+                <li class="item-menu"><a href="produtos.html">Produtos</a></li>
+                <li class="item-menu"><a href="lojas.html">Lojas</a></li>
+                <li class="item-menu"><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+        <!--menu fim-->
+    </header>
+    <main>
+        <div class="boas-vindas">
+            <h2>Produtos</h2>
+            
+        </div>
+        <div class="categorias">
+            <ul>
+                <li onclick="show_all()" class="categorias-click">Todos</li>
+                <li onclick="show_cat('carro')" class="categorias-click">Carros(3)</li>
+                <li onclick="show_cat('moto')" class="categorias-click">Motos(3)</li>
+                <li onclick="show_cat('bicicleta')" class="categorias-click">Bicicletas(3)</li>
+            </ul>
+        </div>
+        <div class="produtos" >
+            <div class="veiculo" id="carro" category="carro" style="display: inline-block;">
+                <img src="./images/carros/clio.jpg" width="220px" alt="clio" onmouseover="aumentar_img(this)" onmouseout="aumentar_img(this)">
+                <p>Renault Clio Hatch 1.0 16V</p>
+                <hr>
+                <p class="preco-antigo">R$31.900</p>
+                <p class="preco-novo">R$23.900</p>
+            </div>
+            <div class="veiculo" id="carro" category="carro" style="display: inline-block;">
+                <img src="./images/carros/gol.jpg" width="220px" alt="gol" onmouseover="aumentar_img(this)" onmouseout="aumentar_img(this)">
+                <p>Volkswagen Gol G6 1.6</p>
+                <hr>
+                <p class="preco-antigo">R$42.900</p>
+                <p class="preco-novo">R$37.900</p>
+            </div>
+            <div class="veiculo" id="carro" category="carro" style="display: inline-block;">
+                <img src="./images/carros/fiesta.jpg" width="220px" alt="fiesta" onmouseover="aumentar_img(this)" onmouseout="aumentar_img(this)">
+                <p>Ford Fiesta 2016 2.0</p>
+                <hr>
+                <p class="preco-antigo">R$28.900</p>
+                <p class="preco-novo">R$25.900</p>
+            </div>
+            <div class="veiculo" id="moto" style="display: inline-block;">
+                <img src="./images/motos/fan.jpg" width="220px" alt="fan" onmouseover="aumentar_img(this)" onmouseout="aumentar_img(this)">
+                <p>Honda Fan160 2018</p>
+                <hr>
+                <p class="preco-antigo">R$14.900</p>
+                <p class="preco-novo">R$9.900</p>
+            </div>
+            <div class="veiculo" id="moto" style="display: inline-block;">
+                <img src="./images/motos/fazer.jpg"  width="220px" alt="fazer" onmouseover="aumentar_img(this)" onmouseout="aumentar_img(this)">
+                <p>Yamaha Fazer 250 2018</p>
+                <hr>
+                <p class="preco-antigo">R$17.900</p>
+                <p class="preco-novo">R$14.900</p>
+            </div>
+            <div class="veiculo" id="moto" style="display: inline-block;">
+                <img src="./images/motos/ninja.png"  width="220px" alt="ninja" onmouseover="aumentar_img(this)" onmouseout="aumentar_img(this)">
+                <p>Kawasaki Ninja 400</p>
+                <hr>
+                <p class="preco-antigo">R$20.900</p>
+                <p class="preco-novo">R$16.900</p>
+            </div>
+            <div class="veiculo" id="bicicleta" style="display: inline-block;">
+                <img src="./images/bicicletas/adulto.jpg"  width="220px" alt="bicicleta-adulto" onmouseover="aumentar_img(this)" onmouseout="aumentar_img(this)">
+                <p>Bicicleta Esport Rino Adulto</p>
+                <hr>
+                <p class="preco-antigo">R$1.900</p>
+                <p class="preco-novo">R$1.200</p>
+            </div>
+            <div class="veiculo" id="bicicleta" style="display: inline-block;">
+                <img src="./images/bicicletas/feminina.jpg"  width="220px" alt="bicicleta-fem" onmouseover="aumentar_img(this)" onmouseout="aumentar_img(this)">
+                <p>Bicicleta SAIJX com cestinha</p>
+                <hr>
+                <p class="preco-antigo">R$1.900</p>
+                <p class="preco-novo">R$1.200</p>
+            </div>
+            <div class="veiculo" id="bicicleta" style="display: inline-block;">
+                <img src="./images/bicicletas/infantil.jpeg"  width="220px" alt="bicicleta-infantil" onmouseover="aumentar_img(this)" onmouseout="aumentar_img(this)">
+                <p>Bicicleta infantil Teck Boys</p>
+                <hr>
+                <p class="preco-antigo">R$999</p>
+                <p class="preco-novo">R$899</p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <h3>Formas de pagamento</h3>
+        <img src="./images/pagamento-1.webp" class="footer-img" alt="">
+        <p>&copy Casas Baiano</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>

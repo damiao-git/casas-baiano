@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lista-menu{
+    background-color: #C20000;
+    display:block;
+    text-align: center;
+    
+}
+.item-menu{
+    display: inline;
+    padding-left: 100px;
+    vertical-align: middle;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.item-menu > a{
+    text-decoration: none;
+    color: white;
+}
+.logo-menu{
+    width: 50px;
+}
+.formulario{
+width: 400px;
+height: 500px;
+padding: 20px;
+font-size: 18px;
+background: #ffc299;
+display: block;
+margin: 0 auto;
+border-radius: 5px;
+}
+.input-style{
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+}
+form > select, input{
+    font-size: 18px;
+    border-radius: 5px;
+}
+form > textarea{
+    width:100%;
+    border-radius: 5px;
+}
+.contato{
+    display:block;
+    text-align: center;
+}
+#enviar{
+    cursor: pointer;
+}
+.footer{
+    display:block;
+    margin: 0 auto;
+    background-color: #C20000;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.footer-img{
+    width: 400px;
+    
+}
+.redes{
+    display:block;
+    width:200px;
+    font-size: 1rem;
+    margin: 0 auto;
+}
+.categorias{
+    display: inline-block;
+    position: relative;
+    padding:5px;
+    width: 300px;
+    height: 1000px;
+}
+.categorias-click{
+    cursor: pointer;
+    padding: 10px;
+    background-color: #c20000;
+}
+.categorias-click:hover{
+    background-color: #ffc299;
+}
+.produtos{
+    display: inline-block;
+    position:absolute;
+    width: 1400px;
+    
+}
+.veiculo{
+
+    width: 320px;
+    display: inline-block;
+    text-align: center;
+}
+/* .veiculo > img{
+    width: 320px;
+    height: 200px;
+} */
+.preco-antigo{
+    font-size: small;
+    text-decoration: line-through;
+}
+.preco-novo{
+    font-size: larger;
+    color:#C20000;
+}
+.lista-lojas{
+    width: 100%;
+    padding-top: 20px;
+    height: 300px;
+    text-align: center;
+}
+.loja{
+    display: inline-block;
+    width: 0 auto;
+    padding-left: 8%;
+    padding-right: 8%; 
+}
+.loja > img{
+    width: 200px;
+}
+.boas-vindas{
+    padding-top: 25px;
+    display:block;
+    text-align: center;
+}
