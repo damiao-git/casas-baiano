@@ -136,11 +136,11 @@ form > textarea{
 .loja{
     display: inline-block;
     width: 0 auto;
-    padding-left: 8%;
-    padding-right: 8%; 
+    padding-left: 5%;
+    padding-right: 5%; 
 }
 .loja > img{
-    width: 200px;
+    width: 300px;
 }
 .boas-vindas{
     padding-top: 25px;
